@@ -4,31 +4,49 @@
   <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link type="text/css" rel="stylesheet" href="phindulo.css" />
-  <title></title>
+	<link type="text/css" rel="stylesheet" href="phindulo.css" />
+
 </head>
 
 <body>
-  <div id="header">
-    <p id="name">Phindulo Mulaudzi</p>
-    <a href="mailto:phinduloomulaudzi@gmail.com" target="_blank">
-      <p id="email">phinduloomulaudzi@gmail.com</p>
-    </a>
+<div class='container'>
+  <div class="row">
+    <div class="col-md-12">
+      <nav class="navbar navbar-default" role="navigation">
+        <div class='col-md-12'>
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Phindulo Mulaudzi</a>
+          </div>
+          <ul class="nav navbar-nav navbar-right nav-buttons">
+            <li>
+              <a href="#about">About Me</a>
+            </li>
+            <li>
+              <a href="#portfolio">Portfolio</a>
+            </li>
+            <li>
+              <a href="#contact">Say Hi!</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
   </div>
-
-  <div class="left">
-  </div>
-  <div class="right">
-    <h3>Career Highlights</h3>
-    <p>
-      <ul>
-        <li>Graduated from Wits University with a Bsc. Electrical Engineering</li>
-        <li>Learnt basic Python, Java, HTML, CSS on Hyperiondev.com.</li>
-        <li>Learnt Data Structures in C++ on Coursera.com.</li>
-      </ul>
+  <a name="about"></a>
+  <div class="jumbotron header">
+    <img  src="https://media-exp1.licdn.com/dms/image/C5603AQH7j-yPFxVkyA/profile-displayphoto-shrink_200_200/0?e=1593043200&v=beta&t=1lM5iQLfdpFFBRdw-TDacvcrxQbQOHDZxEgoq6R3KJA">
+    <h2>Phindulo Mulaudzi</h2>
+    <p class="title">
+      Aspiring Software Engineer
     </p>
-
-    <h3>Personal Information:</h3>
+    <p>
+      Hi there! My name's Phindulo, welcome to my page. I love Python, C++ & Java, and am always looking to learn something new. I live in Johannesburg, and natively speak Tshivenda nice to meet you.
+    </p>
+  </div>
+  
+   <a name="portfolio"></a>
+  <div class="jumbotron">
+  <h3>Personal Information:</h3>
     <p>
       <ul>
         <li>
@@ -41,8 +59,8 @@
     </p>
 
     <h3>Professional Experience</h3>
-    <h4 id="company-name">Entelct Solutions</h4>
-    <p id="job-title"><strong>Support Engineer (Technical Support)</strong></p>
+    <h4 id="company-name">SANAMU Engineering</h4>
+    <p id="job-title">Support Engineer (Technical Support)</p>
     <p id="job-responsibilities">Job Responsbilities</p>
     <p>
       <ul>
@@ -95,28 +113,32 @@
       <p>
         <ul>
           <li>
-            <span id="course-name">Operating Systems:</span> Windows 98, Windows 2000, Windows XP, Windows NT, Windows Server 2003, Windows Vista, Windows 7, Windows 8/8.1, Windows 10,, Linux (Ubuntu, Mint)</li>
+            <span id="course-name">Operating Systems:</span> Windows 98, Windows 2000, Windows XP, Windows NT, Windows Server 2003, Windows Vista, Windows 7, Windows 8/8.1, Windows 10, Linux (Ubuntu, Mint)</li>
           <li>
             <span id="course-name">Application Software:</span> Office 97-2003; Office XP, Office 2007, Office for Mac 2011, Matlab, Visio.</li>
           <li>
             <span id="course-name">Programming Skills:</span>HTML, CSS, Python, Java, C++, C#</li>
         </ul>
       </p>
-
-      <h3>Contact Information</h3>
-      <p>
-        <ul>
-          <li>
-            <span id="course-name">Cellphone Number:</span>+27780968909</li>
-          <li>
-            <span id="course-name">Email:</span>phinduloomulaudzi@gmail</li>
-          <li>
-            <span>Linkedin:</span><a href="https://www.linkedin.com/in/phindulo-mulaudzi-a039171a6/"> Phindulo Mulaudzi Profile</li>
-        </ul>
-      </p>
-
   </div>
-  <div id="footer"></div>
+  <a name="contact"></a>
+  <div class='jumbotron'>
+    <h2 class='text-center'>Contact me</h2>
+    <div class='row'>
+      <div class='col-md-3'>
+        <button class='btn btn-block' href='#' id="twitter">Twitter</button>
+      </div>
+      <div class='col-md-3'>
+        <button class='btn btn-block' id='linkedin' href='#'>LinkedIn</button>
+      </div>
+      <div class='col-md-3'>
+        <button class='btn btn-block' href='#' id="github">GitHub</button>
+      </div>
+      <div class='col-md-3'>
+        <button class='btn btn-block' id="#" href='#'>Facebook</button>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
-
 </html>
