@@ -1,0 +1,70 @@
+.navbar-header a.navbar-brand,
+.nav-buttons a
+{
+  color: #eee !important;
+}
+
+body {
+  background-color: #232323;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  z-index: 1;
+  background-color: #0066CC;
+  border-radius: 0;
+  border: none;
+  border-bottom: 4px solid #0099FF;
+}
+
+.navbar-right {
+  float: right;
+}
+
+.header {
+  margin-top: 100px;
+  text-align: right;
+  height: 330px;
+  background-color: #ddd;
+}
+
+.header img {
+  width: 24%;
+  border-radius: 90%;
+  float: left;
+}
+
+.header h2 {
+  font-size: 400%;
+}
+
+.header p.title {
+  font-size: 180%
+}
+
+.header p {
+  font-size: 120%;
+}
+
+.projects .col-md-4 {
+  background-color: #ddd;
+  border-radius: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 40px;
+  width: 32%;
+  min-height: 420px;
+}
+
+
+table {
+  border: 1px dashed black;
+}
+
+td {
+  padding: 2px;
+  border: 1px solid #e88741;
+}
+
