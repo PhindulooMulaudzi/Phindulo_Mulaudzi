@@ -68,3 +68,6 @@ td {
   border: 1px solid #e88741;
 }
 
+ul.nav>li {
+  display: inline-block;
+}
