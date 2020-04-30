@@ -627,6 +627,7 @@ h1 .logo {
   }
 }
 
+/*
 @media screen and (max-width: 480px) {
   .social-links li {
     display: block;
@@ -661,7 +662,7 @@ h1 .logo {
   #portfolio .overlay {
     height: 70%;
   }
-}
+}*/
 
 /*
 Table magic
