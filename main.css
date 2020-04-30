@@ -696,3 +696,4 @@ tbody tr:last-child td {
     @include border-bottom-right-radius(5px);
   }
 }
+
