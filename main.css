@@ -633,32 +633,25 @@ h1 .logo {
     display: block;
     width: 100%;
   }
-
   .social-links {
     width: 100%;
   }
-
   h1 {
     font-size: 300%;
   }
-
   #about img {
     width: 60%;
   }
-
   #skill-set #software-development-skills::before {
     display: none;
   }
-
   #skill-set #web-development-skills::before {
     display: none;
   }
-
   #skill-set .skills {
     width: 100%;
     display: block;
   }
-
   #portfolio .overlay {
     height: 70%;
   }
@@ -684,7 +677,7 @@ tbody tr td {
   border-bottom: 1px solid #e0e0e0;
 }
 
-tbody tr:nth-child(2n) {
+tbody tr:nth-child(2n-1) {
   background: #f0f3f5;
 }
 
@@ -697,4 +690,3 @@ tbody tr:last-child td {
     @include border-bottom-right-radius(5px);
   }
 }
-
